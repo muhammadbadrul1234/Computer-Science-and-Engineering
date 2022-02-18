@@ -1,0 +1,94 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. Magnets
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>1 second
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>Mad scientist Mike entertains himself by arranging rows of dominoes. He doesn't need dominoes, though: he uses rectangular magnets instead. Each magnet has two poles, positive (a "plus") and negative (a "minus"). If two magnets are put together at a close distance, then the like poles will repel each other and the opposite poles will attract each other.</p>
+   <p>Mike starts by laying one magnet horizontally on the table. During each following step Mike adds one more magnet horizontally to the right end of the row. Depending on how Mike puts the magnet on the table, it is either attracted to the previous one (forming a group of multiple magnets linked together) or repelled by it (then Mike lays this magnet at some distance to the right from the previous one). We assume that a sole magnet not linked to others forms a group of its own.</p>
+   <center> 
+    <img class="tex-graphics" src="https://espresso.codeforces.com/a2cfc00fa5ba91709a0c55ed4bb5e70f976b5f20.png" style="max-width: 100.0%;max-height: 100.0%;"> 
+   </center>
+   <p>Mike arranged multiple magnets in a row. Determine the number of groups that the magnets formed.</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The first line of the input contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1???<i>n</i>???100000</span>) — the number of magnets. Then <span class="tex-span"><i>n</i></span> lines follow. The <span class="tex-span"><i>i</i></span>-th line (<span class="tex-span">1???<i>i</i>???<i>n</i></span>) contains either characters "<span class="tex-font-style-tt">01</span>", if Mike put the <span class="tex-span"><i>i</i></span>-th magnet in the "plus-minus" position, or characters "<span class="tex-font-style-tt">10</span>", if Mike put the magnet in the "minus-plus" position.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>On the single line of the output print the number of groups of magnets.</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>6<br>10<br>10<br>10<br>01<br>10<br>10<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>3<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>4<br>01<br>01<br>10<br>10<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>2<br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>The first testcase corresponds to the figure. The testcase has three groups consisting of three, one and two magnets.</p>
+   <p>The second testcase has two groups, each consisting of two magnets.</p>
+  </div>
+ </div>
+</div>

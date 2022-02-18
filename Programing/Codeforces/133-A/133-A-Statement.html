@@ -1,0 +1,97 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. HQ9+
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>2 seconds
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>HQ9+ is a joke programming language which has only four one-character instructions:</p>
+   <ul>
+    <li> "<span class="tex-font-style-tt">H</span>" prints "<span class="tex-font-style-tt">Hello, World!</span>",</li>
+    <li> "<span class="tex-font-style-tt">Q</span>" prints the source code of the program itself,</li>
+    <li> "<span class="tex-font-style-tt">9</span>" prints the lyrics of "99 Bottles of Beer" song, </li>
+    <li> "<span class="tex-font-style-tt">+</span>" increments the value stored in the internal accumulator.</li>
+   </ul>
+   <p>Instructions "<span class="tex-font-style-tt">H</span>" and "<span class="tex-font-style-tt">Q</span>" are case-sensitive and must be uppercase. The characters of the program which are not instructions are ignored.</p>
+   <p>You are given a program written in HQ9+. You have to figure out whether executing this program will produce any output.</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The input will consist of a single line <span class="tex-span"><i>p</i></span> which will give a program in HQ9+. String <span class="tex-span"><i>p</i></span> will contain between 1 and 100 characters, inclusive. ASCII-code of each character of <span class="tex-span"><i>p</i></span> will be between 33 (exclamation mark) and 126 (tilde), inclusive.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>Output "<span class="tex-font-style-tt">YES</span>", if executing the program will produce any output, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>Hi!<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>YES<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>Codeforces<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>NO<br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>In the first case the program contains only one instruction — "<span class="tex-font-style-tt">H</span>", which prints "<span class="tex-font-style-tt">Hello, World!</span>".</p>
+   <p>In the second case none of the program characters are language instructions.</p>
+  </div>
+ </div>
+</div>

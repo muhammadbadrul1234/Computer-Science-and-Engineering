@@ -1,0 +1,108 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. Anton and Danik
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>1 second
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>Anton likes to play chess, and so does his friend Danik.</p>
+   <p>Once they have played <span class="tex-span"><i>n</i></span> games in a row. For each game it's known who was the winner — Anton or Danik. None of the games ended with a tie.</p>
+   <p>Now Anton wonders, who won more games, he or Danik? Help him determine this.</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The first line of the input contains a single integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1???<i>n</i>???100?000</span>) — the number of games played.</p>
+   <p>The second line contains a string <span class="tex-span"><i>s</i></span>, consisting of <span class="tex-span"><i>n</i></span> uppercase English letters '<span class="tex-font-style-tt">A</span>' and '<span class="tex-font-style-tt">D</span>' — the outcome of each of the games. The <span class="tex-span"><i>i</i></span>-th character of the string is equal to '<span class="tex-font-style-tt">A</span>' if the Anton won the <span class="tex-span"><i>i</i></span>-th game and '<span class="tex-font-style-tt">D</span>' if Danik won the <span class="tex-span"><i>i</i></span>-th game.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>If Anton won more games than Danik, print "<span class="tex-font-style-tt">Anton</span>" (without quotes) in the only line of the output.</p>
+   <p>If Danik won more games than Anton, print "<span class="tex-font-style-tt">Danik</span>" (without quotes) in the only line of the output.</p>
+   <p>If Anton and Danik won the same number of games, print "<span class="tex-font-style-tt">Friendship</span>" (without quotes).</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>6<br>ADAAAA<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>Anton<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>7<br>DDDAADA<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>Danik<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>6<br>DADADA<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>Friendship<br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>In the first sample, Anton won <span class="tex-span">6</span> games, while Danik — only <span class="tex-span">1</span>. Hence, the answer is "<span class="tex-font-style-tt">Anton</span>".</p>
+   <p>In the second sample, Anton won <span class="tex-span">3</span> games and Danik won <span class="tex-span">4</span> games, so the answer is "<span class="tex-font-style-tt">Danik</span>".</p>
+   <p>In the third sample, both Anton and Danik won <span class="tex-span">3</span> games and the answer is "<span class="tex-font-style-tt">Friendship</span>".</p>
+  </div>
+ </div>
+ <p> </p>
+</div>
