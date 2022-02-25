@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long int
+#define ll long long int
 #define pi (3.141592653589)
 #define mod 1000000007
-#define int long long
 #define float double
 #define pb push_back
 #define mp make_pair
@@ -12,8 +11,8 @@ using namespace std;
 #define all(c) c.begin(), c.end()
 #define min3(a, b, c) min(c, min(a, b))
 #define min4(a, b, c, d) min(d, min(c, min(a, b)))
-#define rrep(i, n) for(int i=n-1;i>=0;i--)
-#define rep(i,n) for(int i=0;i<n;i++)
+#define rfl(i, n) for(int i=n-1;i>=0;i--)
+#define fl(i,n) for(int i=0;i<n;i++)
 #define fast ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
 bool isPrime(int n){
     if(n==1) return false;
@@ -27,13 +26,10 @@ int main(){
     /* Muhammad Badrul Alom Tawsyat
     badrulalom.me
     CF Handle: Hellobadrul*/
-    int a=1;
+    int a;
     cin>>a;
-       while(a--){
-            for(int i = 0 ; i < a ; i++)
-            {
-                /* code */
-            }
-       }
+    while(a--){
+        
+    }
 return 0;
 }
