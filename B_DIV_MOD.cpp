@@ -21,33 +21,21 @@ bool isPrime(int n){
         if(n%i==0)return false;
     }return true;
 }
-int findMaxSoln(int n, int x, int y)
-{
-    // Stores the minimum solution
-    int ans = INT_MIN;
- 
-    for (int k = 0; k <= n; k++) {
-        if (k % x == y) {
-            ans = max(ans, k);
-        }
-    }
-    // Return the maximum possible value
-    return (ans);
-}
- 
-// Driver Code
-int main()
+void solve()
 {
     /* Muhammad Badrul Alom Tawsyat
     badrulalom.me
     CF Handle: Hellobadrul*/
-    int a,b;
-    cin>>a;
-    ll n, x, y;
-    while(a--){
-        cin>> n>>x>>y;
-        cout << findMaxSoln(n, x, y)<<endl;
+    ll l,r,a;
+    cin>>l>>r>>a;
+    ll ans1=(r/a)+(r%a);
+    ll temp=((r/a)*a)-1;
+    if(temp<l){
+        cout<<ans1<<endl;
     }
-    return 0;
-
+    ll ans=0;
+    ans=(temp/a)+(temp%a);
+    cout<<max(ans,ans1)<<endl;
 }
+
+    
