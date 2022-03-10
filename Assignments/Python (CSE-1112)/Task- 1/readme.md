@@ -4,7 +4,7 @@
   </a>
 </h1>
 <h2 align="center">Introduction to Computers Sessional (Python)</h2>
-<h3align="center">Task -1 </h3>
+<h3 align="center">Task -1 </h3>
 <h4>Problems</h4>
 Take three variables and print their values. The variables will be used for showing your name,
 id, and course code. Follow Camel Case. Comment your name, ID, and date at the beginning of
