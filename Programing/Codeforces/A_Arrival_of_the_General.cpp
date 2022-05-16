@@ -25,12 +25,37 @@ int main(){
     /* Muhammad Badrul Alom Tawsyat
     badrulalom.me
     CF Handle: Hellobadrul*/
-    int a;
-    cin>>a;
-    int b[a];
-    for(int i = 0 ; i < a ; i++){
-        /* code */
-        cin>>b[i];
+    int n;
+    int maxvalue=0;
+    int minvalue=1000;
+    int maxindex=0;
+    int minindex=0;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+    if(x>maxvalue){
+        maxindex=i;
+        maxvalue=x;
     }
-return 0;
+    if(x<=minvalue){
+        minindex=i;
+        minvalue=x;
+    }
+    }
+    //cout<<maxindex<<"   max"<<minindex<<"min\n";
+    if(maxindex>minindex){
+        cout<<(maxindex-1)+(n-minindex)-1;
+    }
+    else{
+        cout<<(maxindex-1)+(n-minindex);
+
+    }
+
+
+
+
+
+        return 0;
+    
 }
