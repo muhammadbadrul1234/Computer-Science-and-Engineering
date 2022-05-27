@@ -1,35 +1,85 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long int
-#define pi (3.141592653589)
-#define mod 1000000007
-#define float double
-#define pb push_back
-#define mp make_pair
-#define ff first
-#define ss second
-#define all(c) c.begin(), c.end()
-#define min3(a, b, c) min(c, min(a, b))
-#define min4(a, b, c, d) min(d, min(c, min(a, b)))
-#define rfl(i, n) for(int i=n-1;i>=0;i--)
-#define fl(i,n) for(int i=0;i<n;i++)
-#define fast ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-bool isPrime(int n){
-    if(n==1) return false;
-    if(n==2) return true;
-    for(int i=2;i*i<=n;i++){
-        if(n%i==0)return false;
-    }return true;
+import javax.swing.*;
+import javax.swing.border.Border;
+import javax.swing.border.LineBorder;
+import java.awt.*;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.sql.*;
+public class Main {
+    public static void Main(String[] args){
+         JFrame frame = new JFrame("CalculatoRegistrationr");
+         DbConnect db = new DbConnect();
+            public Registration(){
+            frame.setSize(500,500);
+            frame.setLocationRelativeTo(null);
+            frame.setLayout(null);
+            frame.setDefaultCloseOperation(3);
+            JLabel jlavel=new JLabel("Name");
+            jlabel.setBounds(10,10,100,20);
+            frame.add(jlabel);
+            JTextField jtf = new JTextField();
+		    jtf.setBounds(120,10,100,20);
+            frame.add(jtf);
+            JLabel jlavel2=new JLabel("Email");
+            jlabel.setBounds(10,40,100,20);
+            frame.add(jlabel2);
+            JTextField jtf2 = new JTextField();
+		    jtf.setBounds(120,40,100,20);
+            frame.add(jtf2);
+            JLabel jlavel3=new JLabel("Pass");
+            jlabel.setBounds(10,70,100,20);
+            frame.add(jlabel3);
+            JPasswordField jpf=new JPasswordField();
+		    jtf.setBounds(120,70,100,20);
+            frame.add(jpf);
+            JButton btn=new JButton("Register");
+            btn..setBounds(120,100,100,20);
+            frame.add(btn);
+            btn.addActionListener(new ActionListener(){
+                public void actionPerformed(ActionEvent e){
+                    String name= jtf.getText();
+                    String email= jtf1.getText();
+                    String pass= jpf.getText();
+                    system.out.println(name+" "+email+" "+pass );
+                    String query= "INSERT INTO 'student_info'('Name','Email','Pass')VALUES('["+name+"]'+' ["+email+"]'+' ["+pass+"]' )";
+                    db.insert(query);
+                }
+            });
+            frame.setVisiable(true);
+        }
+    }   
 }
-int main(){
-    /* Muhammad Badrul Alom Tawsyat
-    badrulalom.me
-    CF Handle: Hellobadrul*/
-    int a,b,c;
-    cin>>a>>b>>c;
-    int d= (max(max(a,b),c)) +(min(min(a,b),c));
-    d=d/2;
-    d=(max(max(a,b),c)-d) +(d-min(min(a,b),c));
-    cout<< d <<endl;
-return 0;
+public class DbConnect{
+    /* 
+    7 steps of data connection(Important Question for Final)
+    01.Import
+    02.Load and Register the driver
+    03.Create a Connection
+    04.Create a Statement
+    05. Execute and Query
+    06.Process and Result
+    07.Close
+    ****/
+    private Connection con;
+    private Statement st;
+    DbConnect(){
+        /*Try Catch is mandatory to avoid the error throw*/
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            con= DriverManager.getConnection("jdbc:mysql://localhost:3306/student","root" ,"" );
+            st=con.createStatement();
+        }catch(Exception e){
+            system.out.println("Connection Failed");
+        }
+        void insert(String query){
+            try{
+                st.executeUpdate(query);
+            }catch (Exception e){
+                system.out.println("Insertion Failed");
+            }
+        }
+    }
+}
+public class Registration{
+
 }
