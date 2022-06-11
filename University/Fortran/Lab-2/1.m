@@ -1,3 +1,4 @@
+%Trapezoidal Rule
 x = input("Please enter the function :", "s");
 f = inline(x);
 a = input("Enter the lower limit a = ");
