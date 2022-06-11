@@ -19,7 +19,7 @@ for i=a+h:h:b-h
     i1 = i1 + 2*f(i); 
 end
 
-I = (h/2)*(f(a)+f(b)+3*i1);
+I = (h/2)*(f(a)+f(b)+i1);
 fprintf("The evaluated integral of the function, %f",I);
 
 %input=1
