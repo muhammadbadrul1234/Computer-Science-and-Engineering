@@ -10,7 +10,10 @@ b = input("Enter the upper limit b = ");
 n = input("Enter the number of intervals n = ");
 h = (b-a)/n;
 i1 = 0.0;
-%2012020216
+
+% 022LB
+% 200UA
+%6121RD
 
 for i=a+h:h:b-h
     i1 = i1 + 2*f(i); 

@@ -12,7 +12,10 @@ h = (b-a)/n;
 iEven = 0;
 iOdd = 0;
 
-%2012020216
+% 022LB
+% 200UA
+%6121RD
+
 for i = a+h:2*h:b-h
   iOdd = iOdd+y(i);
 end
@@ -28,8 +31,9 @@ fprintf('Integrated value = %f',area);
 % Enter the lower limit a = 1
 % Enter the upper limit b = 8
 % Enter the number of intervals n = 50
+
 %input=2
 % Please enter the function =e^x
 % Enter the lower limit a = 0
 % Enter the upper limit b = 1
-% Enter the number of intervals n = 29
+% Enter the number of intervals n = 2

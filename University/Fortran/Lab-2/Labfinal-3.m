@@ -15,7 +15,11 @@ h = (b-a)/n;
 i1 = 0;
 i2 = 0;
 i3 = 0;
-%2012020216
+
+% 022LB
+% 200UA
+%6121RD
+2012020216
 for i=a+h:3*h:b-2*h
   i1=i1+y(i);
 end
@@ -31,3 +35,15 @@ end
 area = (3*h/8)*((y(a)+y(b))+3*i1+3*i2+2*i3);
 
 fprintf('Integrated value = %f',area);
+
+%input=1
+% Please enter the function =(1+cos(x))^1/2
+% Enter the lower limit a = 0
+% Enter the upper limit b = pi/4
+% Enter the number of intervals n = 15
+
+%input=2
+% Please enter the function =(1/(x^2+2))
+% Enter the lower limit a = 1
+% Enter the upper limit b = 2
+% Enter the number of intervals n = 12
