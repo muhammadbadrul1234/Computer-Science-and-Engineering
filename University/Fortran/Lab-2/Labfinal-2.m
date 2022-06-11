@@ -22,3 +22,14 @@ end
 
 area = (h/3)*((y(a)+y(b))+4*iOdd+2*iEven);
 fprintf('Integrated value = %f',area);
+
+%input=1
+% Please enter the function =x^1/2
+% Enter the lower limit a = 1
+% Enter the upper limit b = 8
+% Enter the number of intervals n = 50
+%input=2
+% Please enter the function =e^x
+% Enter the lower limit a = 0
+% Enter the upper limit b = 1
+% Enter the number of intervals n = 29
