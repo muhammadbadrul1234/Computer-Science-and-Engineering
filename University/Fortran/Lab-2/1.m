@@ -19,8 +19,13 @@ end
 I = (h/2)*(f(a)+f(b)+3*i1);
 fprintf("The evaluated integral of the function, %f",I);
 
-%input
-% Please enter the function =((1+(tan(x))^2))^(1/2)
+%input=1
+% Please enter the function =((1+2*(tan(x))^2))^(1/2)
 % Enter the lower limit a = 1
 % Enter the upper limit b = pi/4
 % Enter the number of intervals n = 100
+%input=2
+% Please enter the function =0.2+25*x-200*(x^2)+675*(x^3)-900*(x^4)+400*(x^5)
+% Enter the lower limit a = 1
+% Enter the upper limit b = pi/4
+% Enter the number of intervals n = 50
