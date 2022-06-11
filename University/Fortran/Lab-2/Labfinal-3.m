@@ -1,4 +1,4 @@
-%Simpson's Rule
+%Simpson's 3/8 Rule
 clc;
 clear all;
 close all;

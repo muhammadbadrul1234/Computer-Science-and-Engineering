@@ -3,8 +3,8 @@ clc;
 clear all;
 close all;
 
-a = input('Enter Function with right side zero: ','s');
-f = inline(a);
+fx = input('Enter Function with right side zero: ','s');
+f = inline(fx);
 b = input('Upper Limit: ');
 a = input('Lower Limit: ');
 n = input('Number of Iteration: ');
@@ -16,15 +16,15 @@ iOdd = 0;
 % 200UA
 %6121RD
 
-for i = a+h:2*h:b-h
-  iOdd = iOdd+f(i);
+for x = a+h:2*h:b-h
+  iOdd = iOdd+f(x);
 end
 
-for i = a+2*h:2*h:b-2*h
-  iEven = iEven+f(i);
+for x = a+2*h:2*h:b-2*h
+  iEven = iEven+f(x);
 end
 
-area = (h/3)*(f(a)+(4*iEven)+(2*iOdd)+f(b));
+area = (h/3)*(f(a) + (2*iEven) + (4*iOdd) + f(b) );
 fprintf('Integrated value = %f',area);
 
 %input=1
@@ -34,7 +34,7 @@ fprintf('Integrated value = %f',area);
 % Enter the number of intervals n = 50
 
 %input=2
-% Please enter the function =exp(x)
+% Please enter the function = exp(x)
 % Enter the lower limit a = 0
 % Enter the upper limit b = 1
 % Enter the number of intervals n = 29
