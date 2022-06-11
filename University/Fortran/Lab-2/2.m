@@ -13,7 +13,7 @@ h = (b-a)/n;
 
 iEven = 0;
 iOdd = 0;
-
+%2012020216
 for i = a+h:2*h:b-h
   iOdd = iOdd+y(i);
 end
