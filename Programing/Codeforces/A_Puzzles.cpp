@@ -25,9 +25,11 @@ int main(){
     /* Muhammad Badrul Alom Tawsyat
     badrulalom.me
     CF Handle: Hellobadrul*/
-    int a;
-    cin>>a;
-    while(a--){
+    int a,b;
+    cin>>a>>b;
+    
+    while(b--){
+
         
     }
 return 0;
