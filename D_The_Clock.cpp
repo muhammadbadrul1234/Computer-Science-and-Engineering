@@ -40,13 +40,17 @@ function{
     int a;
     cin>>a;
     while(a--){
-        string s;
-        int x;
-        gets(s);
-       // s[2].erase();
-       int num = (int) s[0];
-        printf("Integer: %d \n", &num );
-        cout<<"";
-    }
+        
+        std::string s;
+        
+        std::cout << "Enter your name: ";
+        std::getline(std::cin, name);
+        
+        std::cout << "Enter your favourite movie: ";
+        std::getline(std::cin, title);
+        
+        std::cout << name << "'s favourite movie is " << title;
+}
+    
 void_return
 }
