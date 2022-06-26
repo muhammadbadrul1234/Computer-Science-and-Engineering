@@ -33,7 +33,7 @@ function{
         ll m,n;
         cin>>n>>m;
         ll x,y;
-        cout<<((m*(m-1))/2)+(m(n*(n+1)/2));<<endl;
+        cout<<((m*(m-1))/2)+(m*(n*(n+1)/2))<<endl;
     }
 void_return
 }
