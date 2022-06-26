@@ -39,6 +39,7 @@ function{
             /* code */
             cin>>c[i];
             //1212121
+            //
         }
         int* c1 = selection_sort(c, b);
         if(areSame(c, b)) cout<<"0"<<endl;
