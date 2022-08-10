@@ -30,6 +30,7 @@ function{
     int a;
     cin>>a;
     while(a--){
+        int 
         
     }
 void_return
