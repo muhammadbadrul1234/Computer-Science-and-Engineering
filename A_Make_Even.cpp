@@ -32,7 +32,7 @@ function{
     while(a--){
         int b;
         cin>>b;
-        if(b<10){
+        if(b<10 || b%2==0){
             if(b%2==0) cout<< "0" <<endl;
             else cout<< "1" <<endl;
         }
