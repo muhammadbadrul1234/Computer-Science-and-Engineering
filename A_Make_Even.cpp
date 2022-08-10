@@ -1,44 +1,33 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include<bits/stdc++.h>
 #define ll long long int
-#define pi (3.141592653589)
-#define mod 1000000007
-#define float double
-#define pb push_back
-#define mp make_pair
-#define ff first
-#define ss second
-#define function int main()
-#define void_return return 0;
-#define all(c) c.begin(), c.end()
-#define min3(a, b, c) min(c, min(a, b))
-#define min4(a, b, c, d) min(d, min(c, min(a, b)))
-#define rfl(i, n) for(int i=n-1;i>=0;i--)
-#define fl(i,n) for(int i=0;i<n;i++)
-#define fast ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);
-bool isPrime(int n){
-    if(n==1) return false;
-    if(n==2) return true;
-    for(int i=2;i*i<=n;i++){
-        if(n%i==0)return false;
-    }return true;
-}
-    /* Muhammad Badrul Alom Tawsyat
-    badrulalom.me
-    CF Handle: Hellobadrul*/
-function{
-    int a;
+using namespace std;
+int main(){
+    //string s1,t1;
+    //cin>>s1>>t1;
+    int a,c;
+    string b;
     cin>>a;
-    while(a--){
-        int b;
+    for(int i=0;i<a;i++)
+    {
         cin>>b;
-        if(b<10 || b%2==0){
-            if(b%2==0) cout<< "0" <<endl;
-            else cout<< "1" <<endl;
-        }
-        
-
-        
+        c=b.size();
+        //cout<<"Loop:"<<c<<endl;
+        if(b[c-1]%2==0)
+            cout<<"0"<<endl;
+        else if(b[0]%2==0)
+            cout<<"1"<<endl;
+        else
+        {
+            int sum=-1;
+            for(int k=0;k<c;k++)
+            {
+                if(b[k]%2==0)
+                {
+                    sum=2;
+                    break;
+                }
+            }
+            cout<<sum<<endl;
+        }  
     }
-void_return
 }
