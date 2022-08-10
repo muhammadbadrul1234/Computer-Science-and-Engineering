@@ -32,6 +32,7 @@ function{
     while(a--){
         int b;
         cin>>b;
+        
 
         
     }
