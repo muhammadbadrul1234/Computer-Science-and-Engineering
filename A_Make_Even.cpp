@@ -33,7 +33,8 @@ function{
         int b;
         cin>>b;
         if(b<10){
-            if(b%2==0) cout<<  <<endl;
+            if(b%2==0) cout<< "0" <<endl;
+            else 
         }
 
         
