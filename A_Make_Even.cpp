@@ -32,7 +32,7 @@ function{
     while(a--){
         int b;
         cin>>b;
-        
+        if(b<10)
 
         
     }
