@@ -30,7 +30,9 @@ function{
     int a;
     cin>>a;
     while(a--){
-        int 
+        int b;
+        cin>>b;
+
         
     }
 void_return
