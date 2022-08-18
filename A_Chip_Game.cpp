@@ -27,6 +27,7 @@ bool isPrime(int n){
     badrulalom.me
     CF Handle: Hellobadrul*/
 function{
+    //12121
     int a;
     cin>>a;
     while(a--){
