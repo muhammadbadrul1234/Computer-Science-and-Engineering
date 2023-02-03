@@ -30,8 +30,17 @@ function{
     int a;
     cin>>a;
     while(a--){
-        
-        
+        int n;
+        cin>>n;
+        string s;
+        cin>>s;
+        int x=0,y=0,z=n-1;
+        while(s[y]!=s[z] && y<z){
+            x+=2;
+            y++;
+            z--;
+        }
+        cout<< n-x <<endl;
     }
 void_return
 }
