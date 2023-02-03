@@ -1,0 +1,181 @@
+ubuntu@ubuntu:~$ pwd
+/home/ubuntu
+ubuntu@ubuntu:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ pwd
+/home/ubuntu/Desktop
+ubuntu@ubuntu:~/Desktop$ mkdir Home
+ubuntu@ubuntu:~/Desktop$ mkdir Badrul 
+ubuntu@ubuntu:~/Desktop$ mkdir Badrul Bhai
+mkdir: cannot create directory ‘Badrul’: File exists
+ubuntu@ubuntu:~/Desktop$ mkdir "nn nn"
+ubuntu@ubuntu:~/Desktop$ mkdir "Badrul Alom"
+ubuntu@ubuntu:~/Desktop$ mkdir "Badrul Alom"
+mkdir: cannot create directory ‘Badrul Alom’: File exists
+ubuntu@ubuntu:~/Desktop$ ls
+'Badrul Alom'   ubiquity.desktop
+ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ mkdir mbat
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ ls
+mbat
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ mkdir "Hello From Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ mkdir "Inside Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd "Inside Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Inside Terminal$ cd
+ubuntu@ubuntu:~$ cd desktop ^C
+ubuntu@ubuntu:~$ cd ^[[200~ubuntu@ubuntu:~$ pwd
+bash: cd: too many arguments
+ubuntu@ubuntu:~$ /home/ubuntu
+bash: /home/ubuntu: Is a directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~$ ls
+ubuntu@ubuntu:~$: command not found
+ubuntu@ubuntu:~$ Desktop  Documents  Downloads  Music  Pictures  Public  snap  Templates  Videos
+Desktop: command not found
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~$: command not found
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ pwd
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ /home/ubuntu/Desktop
+bash: /home/ubuntu/Desktop: Is a directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir Home
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir Badrul 
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir Badrul Bhai
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ mkdir: cannot create directory ‘Badrul’: File exists
+Command 'mkdir:' not found, did you mean:
+  command 'mkdir' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir "nn nn"
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir "Badrul Alom"
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ mkdir "Badrul Alom"
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ mkdir: cannot create directory ‘Badrul Alom’: File exists
+Command 'mkdir:' not found, did you mean:
+  command 'mkdir' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ ls
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ 'Badrul Alom'   ubiquity.desktop
+Badrul Alom: command not found
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+bash: ubuntu@ubuntu:~/Desktop$: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop/Badrul Alom$ mkdir mbat
+bash: ubuntu@ubuntu:~/Desktop/Badrul: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop/Badrul Alom$ ls
+bash: ubuntu@ubuntu:~/Desktop/Badrul: No such file or directory
+ubuntu@ubuntu:~$ mbat
+Command 'mbat' not found, did you mean:
+  command 'mcat' from deb mtools (4.0.33-1+really4.0.32-1build1)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop/Badrul Alom$ mkdir "Hello From Terminal"
+bash: ubuntu@ubuntu:~/Desktop/Badrul: No such file or directory
+ubuntu@ubuntu:~$ ubuntu@ubuntu:~/Desktop/Badrul Alom$ 
+bash: ubuntu@ubuntu:~/Desktop/Badrul: No such file or directory
+ubuntu@ubuntu:~$ ~cd Desktop
+Command '~cd' not found, did you mean:
+  command 'hcd' from deb hfsutils (3.2.6-15build2)
+  command 'mcd' from deb mtools (4.0.33-1+really4.0.32-1build1)
+Try: sudo apt install <deb name>
+ubuntu@ubuntu:~$ cd home
+bash: cd: home: No such file or directory
+ubuntu@ubuntu:~$ pwd
+/home/ubuntu
+ubuntu@ubuntu:~$ cd 
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd "Hello From Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd "Inside Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd -
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd -
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd -
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd -
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd --
+ubuntu@ubuntu:~$ cd Desktop "Badrul Alom" "Hello From Terminal"
+bash: cd: too many arguments
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd..
+cd..: command not found
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd ..
+ubuntu@ubuntu:~/Desktop$ cd ..
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd "Hello From Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd "Inside Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ mkdir "Badrul Boss"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ pwd
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd "Badrul Boss"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal/Badrul Boss$ pwd
+/home/ubuntu/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal/Badrul Boss
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal/Badrul Boss$ cd ..
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd ..
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd ..
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd ..
+ubuntu@ubuntu:~/Desktop$ cd ..
+ubuntu@ubuntu:~$ cd Desktop/Badrul Alom/Hello From Terminal/Inside Terminal/Badrul Boss
+bash: cd: too many arguments
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ cd "Badrul Alom"
+ubuntu@ubuntu:~/Desktop/Badrul Alom$ cd "Hello From Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal$ cd "Inside Terminal"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal$ cd "Badrul Boss"
+ubuntu@ubuntu:~/Desktop/Badrul Alom/Hello From Terminal/Inside Terminal/Badrul Boss$ cd
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ mkdir Family
+ubuntu@ubuntu:~/Desktop$ mkdir Dada
+ubuntu@ubuntu:~/Desktop$ cd Family
+ubuntu@ubuntu:~/Desktop/Family$ mkdir Dada
+ubuntu@ubuntu:~/Desktop/Family$ cd Dada
+ubuntu@ubuntu:~/Desktop/Family/Dada$ mkdir son1
+ubuntu@ubuntu:~/Desktop/Family/Dada$ mkdir son2
+ubuntu@ubuntu:~/Desktop/Family/Dada$ mkdir son3
+ubuntu@ubuntu:~/Desktop/Family/Dada$ mkdir daughter1
+ubuntu@ubuntu:~/Desktop/Family/Dada$ cd son1
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1$ mkdir badrul
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1$ cd badrul
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son1
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son2
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son3
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son4
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son5
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son6
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son7
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son8
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son9
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir son10
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter1
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter2
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter3
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter4
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter5
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter6
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter7
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter8
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter9
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ mkdir daughter10
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ cd Desktop
+bash: cd: Desktop: No such file or directory
+ubuntu@ubuntu:~/Desktop/Family/Dada/son1/badrul$ cd
+ubuntu@ubuntu:~$ cd Desktop
+ubuntu@ubuntu:~/Desktop$ mkdir Family
+mkdir: cannot create directory ‘Family’: File exists
+ubuntu@ubuntu:~/Desktop$ mkdir family
+ubuntu@ubuntu:~/Desktop$ mkdir^C
+ubuntu@ubuntu:~/Desktop$ mkdir Grandfather
+ubuntu@ubuntu:~/Desktop$ cd family
+ubuntu@ubuntu:~/Desktop/family$ mkdir Grandfather
+ubuntu@ubuntu:~/Desktop/family$ mkdir 1 2 3 4 5 6 7 8 9
+ubuntu@ubuntu:~/Desktop/family$ ls
+1  2  3  4  5  6  7  8  9  Grandfather
+ubuntu@ubuntu:~/Desktop/family$ mv 1 Apple
+ubuntu@ubuntu:~/Desktop/family$ 

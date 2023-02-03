@@ -1,0 +1,125 @@
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ cat /etc/shells/bin
+cat: /etc/shells/bin: Not a directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ ls
+badrul.txt  done.test                               NEW       snap
+check       Downloads                               Pictures  Templates
+Desktop     google-chrome-stable_current_amd64.deb  Public    Videos
+Documents   Music                                   Sajid.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ cd
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~$ cd Desktop
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch Hello.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ which bash
+/usr/bin/bash
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ^C
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ Hello.sh
+Hello.sh: command not found
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ chmod 777 Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -l
+total 4
+-rwxrwxrwx 1 muhammad muhammad 36 নভেম্বর   12 09:43 Hello.sh
+-rw-rw-r-- 1 muhammad muhammad  0 নভেম্বর   12 09:41 Hello.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ Hello.sh
+Hello.sh: command not found
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ bash Hello.sh
+Hello World
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ./Hello.sh
+Hello World
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 124xwr
+124xwr: command not found
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ mkdir 'new folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cd 'new folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ tooch file1.txt
+Command 'tooch' not found, did you mean:
+  command 'touch' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ touch file1.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ tooch file2.txt
+Command 'tooch' not found, did you mean:
+  command 'touch' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ touch file2.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ touch file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod a-w file1.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod u-w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-r--rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod u+w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod a-w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod a+w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-rw-rw-rw- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod a-w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod g+w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-r--rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod a+w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod g-w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ chmod o-w file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ ls -l
+total 0
+-r--r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:58 file1.txt
+-rw-rw-r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file2.txt
+-rw-r--r-- 1 muhammad muhammad 0 নভেম্বর   12 09:59 file3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop/new folder$ cd ..
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ chmod 777 'new folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls-l
+ls-l: command not found
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -l
+total 8
+-rwxrwxrwx 1 muhammad muhammad   37 নভেম্বর   12 09:57  Hello.sh
+-rw-rw-r-- 1 muhammad muhammad    0 নভেম্বর   12 09:41  Hello.txt
+drwxrwxrwx 2 muhammad muhammad 4096 নভেম্বর   12 09:59 'new folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano Hello.sh
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ bash Hello.sh
+Hello.sh: line 1: 1#!: command not found
+Sum is: 30
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 
