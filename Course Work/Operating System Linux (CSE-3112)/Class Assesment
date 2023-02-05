@@ -1,0 +1,19 @@
+touch Task.txt
+echo "Apple" >> Task.txt
+echo "Banana" >> Task.txt
+echo "Apple" >> Task.txt
+echo "Apple" >> Task.txt
+echo "Coco" >> Task.txt
+echo "Vanila" >> Task.txt
+echo "Chocolate" >> Task.txt
+echo "Vanila" >> Task.txt
+echo "Chocolate" >> Task.txt
+echo "Apple" >> Task.txt
+echo "Vanila" >> Task.txt
+echo "Chocolate" >> Task.txt
+echo "Chocolate" >> Task.txt
+echo "Vanila" >> Task.txt
+echo "Chocolate" >> Task.txt
+
+sort Task.txt | uniq -c >>task3.txt
+
