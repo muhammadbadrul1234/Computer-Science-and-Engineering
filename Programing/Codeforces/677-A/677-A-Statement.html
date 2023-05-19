@@ -1,0 +1,105 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. Vanya and Fence
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>1 second
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>Vanya and his friends are walking along the fence of height <span class="tex-span"><i>h</i></span> and they do not want the guard to notice them. In order to achieve this the height of each of the friends should not exceed <span class="tex-span"><i>h</i></span>. If the height of some person is greater than <span class="tex-span"><i>h</i></span> he can bend down and then he surely won't be noticed by the guard. The height of the <span class="tex-span"><i>i</i></span>-th person is equal to <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span>.</p>
+   <p>Consider the width of the person walking as usual to be equal to <span class="tex-span">1</span>, while the width of the bent person is equal to <span class="tex-span">2</span>. Friends want to talk to each other while walking, so they would like to walk in a single row. What is the minimum width of the road, such that friends can walk in a row and remain unattended by the guard?</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The first line of the input contains two integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>h</i></span> (<span class="tex-span">1???<i>n</i>???1000</span>, <span class="tex-span">1???<i>h</i>???1000</span>) — the number of friends and the height of the fence, respectively.</p>
+   <p>The second line contains <span class="tex-span"><i>n</i></span> integers <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> (<span class="tex-span">1???<i>a</i><sub class="lower-index"><i>i</i></sub>???2<i>h</i></span>), the <span class="tex-span"><i>i</i></span>-th of them is equal to the height of the <span class="tex-span"><i>i</i></span>-th person.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>Print a single integer — the minimum possible valid width of the road.</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>3 7<br>4 5 14<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>4<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>6 1<br>1 1 1 1 1 1<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>6<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>6 5<br>7 6 8 9 10 5<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>11<br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>In the first sample, only person number <span class="tex-span">3</span> must bend down, so the required width is equal to <span class="tex-span">1?+?1?+?2?=?4</span>.</p>
+   <p>In the second sample, all friends are short enough and no one has to bend, so the width <span class="tex-span">1?+?1?+?1?+?1?+?1?+?1?=?6</span> is enough.</p>
+   <p>In the third sample, all the persons have to bend, except the last one. The required minimum width of the road is equal to <span class="tex-span">2?+?2?+?2?+?2?+?2?+?1?=?11</span>.</p>
+  </div>
+ </div>
+ <p> </p>
+</div>

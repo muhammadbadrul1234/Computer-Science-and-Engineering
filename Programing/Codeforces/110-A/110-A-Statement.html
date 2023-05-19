@@ -1,0 +1,104 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. Nearly Lucky Number
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>2 seconds
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p><span class="tex-font-style-underline">Petya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits <span class="tex-font-style-bf">4</span> and <span class="tex-font-style-bf">7</span>. For example, numbers <span class="tex-font-style-bf">47</span>, <span class="tex-font-style-bf">744</span>, <span class="tex-font-style-bf">4</span> are lucky and <span class="tex-font-style-bf">5</span>, <span class="tex-font-style-bf">17</span>, <span class="tex-font-style-bf">467</span> are not.</span></p>
+   <p>Unfortunately, not all numbers are lucky. Petya calls a number <span class="tex-font-style-underline">nearly lucky</span> if the number of lucky digits in it is a lucky number. He wonders whether number <span class="tex-span"><i>n</i></span> is a nearly lucky number.</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The only line contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1???<i>n</i>???10<sup class="upper-index">18</sup></span>).</p>
+   <p>Please do not use the %lld specificator to read or write 64-bit numbers in ?++. It is preferred to use the cin, cout streams or the %I64d specificator.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>Print on the single line "<span class="tex-font-style-tt">YES</span>" if <span class="tex-span"><i>n</i></span> is a nearly lucky number. Otherwise, print "<span class="tex-font-style-tt">NO</span>" (without the quotes).</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>40047<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>NO<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>7747774<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>YES<br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>1000000000000000000<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>NO<br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>In the first sample there are 3 lucky digits (first one and last two), so the answer is "<span class="tex-font-style-tt">NO</span>".</p>
+   <p>In the second sample there are 7 lucky digits, 7 is lucky number, so the answer is "<span class="tex-font-style-tt">YES</span>".</p>
+   <p>In the third sample there are no lucky digits, so the answer is "<span class="tex-font-style-tt">NO</span>".</p>
+  </div>
+ </div>
+</div>

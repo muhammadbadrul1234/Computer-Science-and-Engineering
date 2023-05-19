@@ -1,0 +1,160 @@
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Hello" >> badrul.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Muhammad Badrul" >> badrul.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "ID: 2012020216" >> badrul.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Department of CSEI" >> badrul.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Section E" | wc
+      1       2      10
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Section E" | wc | wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Section E" | wc | wc | wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Section E" | wc | wc | wc | wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "SectionE" | wc
+      1       1       9
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "SectionE" | wc | wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls
+ badrul.txt  'New Folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -a
+ .   ..   badrul.txt  'New Folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -al
+total 16
+drwxr-xr-x  3 muhammad muhammad 4096 সেপ্টেম্বর 17 09:19  .
+drwxr-x--- 16 muhammad muhammad 4096 সেপ্টেম্বর 17 09:19  ..
+-rw-rw-r--  1 muhammad muhammad   56 সেপ্টেম্বর 17 09:20  badrul.txt
+drwxrwxr-x  2 muhammad muhammad 4096 সেপ্টেম্বর 17 09:18 'New Folder'
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cd..
+cd..: command not found
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -a |wc
+      4       5      27
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ ls -a |wc | wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ date
+শনিবার 17 সেপ্টেম্বর 2022 09:31:04 পূর্বাহ্ণ +06
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ date |wc
+      1       7      99
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ date |wc |wc
+      1       3      24
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file |wc -l>>done
+cat: file2: No such file or directory
+cat: file: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch badrul1.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch file2.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch file.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file |wc -l>>done.txt
+cat: file2: No such file or directory
+cat: file: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file | wc -l >> done.txt
+cat: file2: No such file or directory
+cat: file: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file | wc -l >> done.txt
+cat: file2: No such file or directory
+cat: file: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2.txt file.txt | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2.txt file.txt | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2.txt file.txt | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2.txt file.txt | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ mv file.txt file
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ mv file2.txt file
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file | wc -l >> done.txt
+cat: file2: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch file2.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ mv file2.txt file2
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat file2 file | wc -l >> done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat 1 2 | wc -l >> done.txt
+cat: 1: No such file or directory
+cat: 2: No such file or directory
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ cat done.txt
+0
+0
+0
+4
+15
+15
+15
+6
+6
+6
+0
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ nano done.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ touch Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Apple" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Banana" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Apple" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Apple" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Coco" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Vanila" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Chocolate" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Vanila" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Chocolate" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Apple" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Vanila" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Chocolate" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Chocolate" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Vanila" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ echo "Chocolate" >> Task.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ Uniq Task.txt
+Command 'Uniq' not found, did you mean:
+  command 'uniq' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ uniq Task.txt
+Apple
+Apple Banana
+Banana
+Apple
+Coco
+Vanila
+Chocolate
+Vanila
+Chocolate
+Apple
+Vanila
+Chocolate
+Vanila
+Chocolate
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ uniq Task.txt
+Apple
+Banana
+Apple
+Coco
+Vanila
+Chocolate
+Vanila
+Chocolate
+Apple
+Vanila
+Chocolate
+Vanila
+Chocolate
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq
+Apple
+Banana
+Chocolate
+Coco
+Vanila
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq >>task2.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq >>task1.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt >>task1.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq - u >>task3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq - c >>task3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ count sort Task.txt >>task1.txt
+Command 'count' not found, did you mean:
+  command 'mount' from deb mount (2.37.2-4ubuntu3)
+  command 'ocount' from deb oprofile (1.4.0-0ubuntu7)
+Try: sudo apt install <deb name>
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq - c |sort -nr
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq - c |sort -nr >>task3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq - c |sort -nr >>task4.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq -c
+      4 Apple
+      1 Banana
+      5 Chocolate
+      1 Coco
+      4 Vanila
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ sort Task.txt | uniq -c >>task3.txt
+muhammad@muhammad-HP-Compaq-Pro-6300-MT:~/Desktop$ 

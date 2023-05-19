@@ -1,0 +1,94 @@
+<div style="display: none; margin:1em 0;text-align: center; position: relative;" class="alert alert-info diff-notifier"> 
+ <div>
+  The problem statement has recently been changed. 
+  <a class="view-changes" href="#">View the changes.</a>
+ </div> 
+ <span class="diff-notifier-close" style="position: absolute; top: 0.2em; right: 0.3em; cursor: pointer; font-size: 1.4em;">×</span> 
+</div> 
+<div class="ttypography">
+ <div class="problem-statement">
+  <div class="header">
+   <div class="title">
+    A. Gravity Flip
+   </div>
+   <div class="time-limit">
+    <div class="property-title">
+     time limit per test
+    </div>1 second
+   </div>
+   <div class="memory-limit">
+    <div class="property-title">
+     memory limit per test
+    </div>256 megabytes
+   </div>
+   <div class="input-file">
+    <div class="property-title">
+     input
+    </div>standard input
+   </div>
+   <div class="output-file">
+    <div class="property-title">
+     output
+    </div>standard output
+   </div>
+  </div>
+  <div>
+   <p>Little Chris is bored during his physics lessons (too easy), so he has built a toy box to keep himself occupied. The box is special, since it has the ability to change gravity.</p>
+   <p>There are <span class="tex-span"><i>n</i></span> columns of toy cubes in the box arranged in a line. The <span class="tex-span"><i>i</i></span>-th column contains <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> cubes. At first, the gravity in the box is pulling the cubes downwards. When Chris switches the gravity, it begins to pull all the cubes to the right side of the box. The figure shows the initial and final configurations of the cubes in the box: the cubes that have changed their position are highlighted with orange.</p>
+   <center> 
+    <img class="tex-graphics" src="https://espresso.codeforces.com/383cc55fefceeac300e8d90362dca986d56b436a.png" style="max-width: 100.0%;max-height: 100.0%;"> 
+   </center>
+   <p>Given the initial configuration of the toy cubes in the box, find the amounts of cubes in each of the <span class="tex-span"><i>n</i></span> columns after the gravity switch!</p>
+  </div>
+  <div class="input-specification">
+   <div class="section-title">
+    Input
+   </div>
+   <p>The first line of input contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1???<i>n</i>???100</span>), the number of the columns in the box. The next line contains <span class="tex-span"><i>n</i></span> space-separated integer numbers. The <span class="tex-span"><i>i</i></span>-th number <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> (<span class="tex-span">1???<i>a</i><sub class="lower-index"><i>i</i></sub>???100</span>) denotes the number of cubes in the <span class="tex-span"><i>i</i></span>-th column.</p>
+  </div>
+  <div class="output-specification">
+   <div class="section-title">
+    Output
+   </div>
+   <p>Output <span class="tex-span"><i>n</i></span> integer numbers separated by spaces, where the <span class="tex-span"><i>i</i></span>-th number is the amount of cubes in the <span class="tex-span"><i>i</i></span>-th column after the gravity switch.</p>
+  </div>
+  <div class="sample-tests">
+   <div class="section-title">
+    Examples
+   </div>
+   <div class="sample-test">
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>4<br>3 2 1 2<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>1 2 2 3 <br></pre>
+    </div>
+    <div class="input">
+     <div class="title">
+      Input
+     </div>
+     <pre>3<br>2 3 8<br></pre>
+    </div>
+    <div class="output">
+     <div class="title">
+      Output
+     </div>
+     <pre>2 3 8 <br></pre>
+    </div>
+   </div>
+  </div>
+  <div class="note">
+   <div class="section-title">
+    Note
+   </div>
+   <p>The first example case is shown on the figure. The top cube of the first column falls to the top of the last column; the top cube of the second column falls to the top of the third column; the middle cube of the first column falls to the top of the second column.</p>
+   <p>In the second example case the gravity switch does not change the heights of the columns.</p>
+  </div>
+ </div>
+</div>

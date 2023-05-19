@@ -1,0 +1,5 @@
+Prodduct Details:
+Product name:
+ Product Id: 100
+Unit Price: 100.000000
+Quantity: 100

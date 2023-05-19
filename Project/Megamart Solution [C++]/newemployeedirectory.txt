@@ -1,0 +1,16 @@
+001 Badrul 916253056 BM45963 Sylhet 01727819999 badrulalomtawsyat@iee.orJan2021 CEO Jan2021
+003 Ananna 916523666 BA12355 Sylhet 01745566332 anannashaha@gmail.com PR Jan2022
+004 Takrim 563215669 GT45688 Sylhet 01778456654 elahitakrim@gmail.com HR Jun2021
+005 MKParvez 915632225 WE89556 Dhaka 0176589452 mkamalparvez@gmail.com MM Aug2021
+006 Tawsyat 915663250 BW89544 Sylhet 01759984452 lu.csebadrul@gmail.com AD Jan2021
+007 Elahi 915889620 EW12578 Dhaka 01745563307 cse_2012020216@lus.ac.bdAug2021 TX Aug2021
+008 Nayeem 978563220 GT89563 Khulna 01759986630 nayeem_eem@yahoo.co.uk AD Jan2022
+009 Mujahid 89652366 BT89652 Pabna 01756625587 mjhidmamaccc@lus.ac.bd HR Jul2021
+011 Ananna 916523666 BA12355 Sylhet 01745566332 anannashaha@gmail.com PR Jan2022
+012 Takrim 563215669 GT45688 Sylhet 01778456654 elahitakrim@gmail.com HR Jun2021
+013 MKParvez 915632225 WE89556 Dhaka 0176589452 mkamalparvez@gmail.com MM Aug2021
+014 Tawsyat 915663250 BW89544 Sylhet 01759984452 lu.csebadrul@gmail.com AD Jan2021
+015 Elahi 915889620 EW12578 Dhaka 01745563307 cse_2012020216@lus.ac.bdAug2021 TX Aug2021
+016 Nayeem 978563220 GT89563 Khulna 01759986630 nayeem_eem@yahoo.co.uk AD Jan2022
+017 Mujahid 89652366 BT89652 khulna 01756625587 mjhidmamaccc@lus.ac.bd HR Jul2021
+018 Messi 125412336 ER78541 Barca 01727816548 messi.lionel@lus.ac.bd HR Oct2021
